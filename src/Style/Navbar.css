@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+.navbar {
+  background-color: #a39ce0;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  z-index: 1;
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: 'Tinos', serif;
+  width: 150px;
+}
+
+.fa-firstdraft {
+  margin-left: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 65vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.nav-links {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem !important;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-links:hover {
+  background-color: #938ccf;
+  border-radius: 4px;
+  transition: all 0.2s ease-out;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.userPicNav {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.dropDownCaret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  border-top-style: solid;
+  border-top-width: 4px;
+  border-right: 4px solid transparent;
+  border-bottom: 0 solid transparent;
+  border-left: 4px solid transparent;
+  margin-left: 5px;
+}
+
+.title__name {
+  font-weight: bold !important;
+  font-family: 'Damion';
+  font-style: 'Courgette' !important;
+}
